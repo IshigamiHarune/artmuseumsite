@@ -117,7 +117,11 @@ section{
 }
 
 section:first-child {
-    padding: 15px 30px 100px 30px;
+    padding: 20px 30px 100px 30px;
+}
+
+section:first-child h1 {
+    font-size: 5rem;
 }
 
 #header{
