@@ -20,18 +20,6 @@
     z-index:999;
 }
 
-/*ナビゲーションの縦スクロール*/
-#g-nav.panelactive #g-nav-list{
-    /*ナビの数が増えた場合縦スクロール*/
-    position: fixed;
-    z-index: 999; 
-    width: 100%;
-    height: 100vh;/*表示する高さ*/
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-/*ナビゲーション*/
 #g-nav ul {
     display: none;
     position: absolute;
@@ -114,9 +102,7 @@
     width: 30%;
 }
 
-
-
-/*========= レイアウトのためのCSS ===============*/
+/*========= レイアウト ===============*/
 h1{
     font-size: 2rem;
     text-align: center;
