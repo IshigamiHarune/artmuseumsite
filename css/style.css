@@ -56,7 +56,7 @@
 }
 
 #g-nav li a{
-    color: white;
+    color: #f0f0f0;
     text-decoration: none;
     padding:10px;
     display: block;
@@ -84,7 +84,7 @@
     left: 14px;
     height: 3px;
     border-radius: 2px;
-    background-color: black;
+    background-color: #f0f0f0;
     width: 45%;
   }
 
