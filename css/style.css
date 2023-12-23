@@ -116,9 +116,9 @@ section{
     padding:100px 30px;
 }
 
-section:first-child {
+/* section:first-child {
     padding: 20px 30px 100px 30px;
-}
+} */
 
 section:first-child h1 {
     font-size: 4rem;
@@ -131,6 +131,7 @@ section:first-child h1 {
     text-align: center;
     padding: 20px;
     height: 4rem;
+    position: fixed;
 }
 
 #footer{
