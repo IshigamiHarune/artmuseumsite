@@ -116,6 +116,10 @@ section{
     padding:100px 30px;
 }
 
+section:first-child {
+    padding: 15px 30px 100px 30px;
+}
+
 #header{
     width:100%;
     background:#202020;
