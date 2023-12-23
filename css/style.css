@@ -58,7 +58,7 @@
 #g-nav li a{
     color: #f0f0f0;
     text-decoration: none;
-    padding:10px;
+    padding:15px;
     display: block;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -150,6 +150,7 @@ small{
     color:#f0f0f0;
     text-align: center;
     padding: 20px;
+    height: 4rem;
 }
 
 section{
