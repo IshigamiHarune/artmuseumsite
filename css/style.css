@@ -1,9 +1,7 @@
 @charset "utf-8";
 
-/*========= ナビゲーションのためのCSS ===============*/
-
+/*========= ナビゲーション ===============*/
 #g-nav{
-    /*position:fixed;にし、z-indexの数値を小さくして最背面へ*/
     position:fixed;
     z-index: -1;
     opacity: 0;/*はじめは透過0*/
@@ -36,7 +34,6 @@
 /*ナビゲーション*/
 #g-nav ul {
     display: none;
-    /*ナビゲーション天地中央揃え*/
     position: absolute;
     z-index: 999;
     top:50%;
@@ -47,8 +44,6 @@
 #g-nav.panelactive ul {
     display: block;
 }
-
-/*リストのレイアウト設定*/
 
 #g-nav li{
     list-style: none;
@@ -66,7 +61,7 @@
     font-size: 2rem;
 }
 
-/*========= ボタンのためのCSS ===============*/
+/*========= ボタン ===============*/
 .openbtn1{
     position:fixed;
     z-index: 9999;/*ボタンを最前面に*/
@@ -122,15 +117,9 @@
 
 
 /*========= レイアウトのためのCSS ===============*/
-
 h1{
-    font-size: 1.2rem;
-}
-
-h2{
     font-size: 2rem;
     text-align: center;
-    margin: 0 0 30px 0;
     font-weight: bold;
 }
 
@@ -138,10 +127,8 @@ p{
     margin-top:20px;  
 }
 
-small{
-    color:#f0f0f0;
-    display: block;
-    text-align: center;
+section{
+    padding:100px 30px;
 }
 
 #header{
@@ -153,14 +140,10 @@ small{
     height: 4rem;
 }
 
-section{
-    padding:100px 30px;
-}
-
-section:nth-child(2n){
-}
-
 #footer{
     background:#202020;
     padding:20px;
+    color:#f0f0f0;
+    display: block;
+    text-align: center;
 }
