@@ -9,7 +9,7 @@
 }
 
 .loopSlide > div > * {
-    min-width: calc(100% / 4);
+    min-width: calc(100% / 2);
 }
 
 .loopSlide > div:hover{
