@@ -1,5 +1,5 @@
 @charset "utf-8";
-/*========= ナビゲーション ===============*/
+/* ナビゲーション */
 #g-nav{
     position:fixed;
     z-index: -1;
@@ -48,7 +48,7 @@
     font-size: 2rem;
 }
 
-/*========= ボタン ===============*/
+/* ボタン */
 .openbtn1{
     position:fixed;
     z-index: 9999;/*ボタンを最前面に*/
@@ -101,7 +101,7 @@
     width: 30%;
 }
 
-/*========= レイアウト ===============*/
+/* レイアウト */
 h1{
     font-size: 2rem;
     text-align: center;
@@ -140,4 +140,9 @@ section:first-child h1 {
     color:#f0f0f0;
     display: block;
     text-align: center;
+}
+
+/* アニメーションホバー時に止まる */
+.loop_wrap:hover ul {
+    animation-play-state: paused;
 }
