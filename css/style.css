@@ -14,12 +14,10 @@ p{
     margin-top:20px;  
 }
 
-section{
-    padding-top:100px;
-}
-
 section:first-child h1 {
     font-size: 4rem;
+    padding-top:100px;
+    margin-bottom: 20px;
 }
 
 section:nth-child(n+2) {
