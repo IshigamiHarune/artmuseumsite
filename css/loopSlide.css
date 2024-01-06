@@ -22,14 +22,13 @@
  
         li {
             display: inline-block;
-            width: 100%;
             min-width: 150px;
             margin-right: 20px;
             list-style: none;
  
             img {
                 display: block;
-                width: 100%;
+                width: 400px;
                 height: 300px;
             }
  
