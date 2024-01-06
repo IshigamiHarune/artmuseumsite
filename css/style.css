@@ -142,7 +142,56 @@ section:first-child h1 {
     text-align: center;
 }
 
-/* アニメーションホバー時に止まる */
-.loop_wrap:hover ul {
+/* アニメーション */
+  .loop_css {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .loop_css ul {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .loop_css li {
+    display: inline-block;
+    width: calc(100vw / 2);
+    min-width: 150px;
+    margin: 0 20px 0 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  .loop_css li a {
+    display: block;
+  }
+
+  .loop_css li img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .loop_css li a:hover {
+    opacity: .7;
+  }
+
+  .loop_css ul:first-child {
+    animation: loop 50s -25s linear infinite;
+    backface-visibility: hidden;
+    will-change: transform;
+  }
+
+  .loop_css ul + ul {
+    animation: loop2 50s linear infinite;
+  }
+
+  .loop_css:hover ul {
     animation-play-state: paused;
-}
+  }
