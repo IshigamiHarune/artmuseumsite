@@ -5,7 +5,7 @@
 
 .loopSlide > div {
     display: flex;
-    animation: slide-to-left 5s linear infinite;
+    animation: slide-to-left 10s linear infinite;
 }
 
 .loopSlide > div > * {
