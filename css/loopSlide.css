@@ -4,6 +4,7 @@
     display: flex;
     width: 100vw;
     overflow: hidden;
+    padding-top: 30px;
  
     ul {
         padding: 0;
