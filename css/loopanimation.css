@@ -1,4 +1,11 @@
 @charset "utf-8";
+
+.loop_wrap img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
 /* アニメーション */
   .loop_wrap {
     position: relative;
