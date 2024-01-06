@@ -5,7 +5,7 @@
     background:#202020;
     color:#f0f0f0;
     text-align: center;
-    padding: 25px 0;
+    padding: 20px;
     height: 4rem;
     position: fixed;
     z-index: 100;
@@ -50,7 +50,7 @@
 #g-nav li a{
     color: #f0f0f0;
     text-decoration: none;
-    padding:15px;
+    padding:25px;
     display: block;
     text-transform: uppercase;
     letter-spacing: 0.1em;
