@@ -12,8 +12,12 @@
     min-width: calc(100% / 4);
 }
 
-.loop-slide > div:hover{
+.loopSlide > div:hover{
     animation-play-state: paused;
+}
+
+.loopSlide img{
+    margin: 20px;
 }
 
 @keyframes slide-to-left {
