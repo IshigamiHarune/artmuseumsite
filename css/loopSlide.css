@@ -21,9 +21,5 @@
 }
 
 @keyframes slide-to-left {
-    100% { transform: translateX(-100%) }
-}
-
-@keyframes slide-to-left {
     100% { transform: translateX(calc(-100% * (var(--slideNum) / var(--slideToShow)))) }
 }
