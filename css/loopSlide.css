@@ -17,7 +17,8 @@
 }
 
 .loopSlide img{
-    margin: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 @keyframes slide-to-left {
