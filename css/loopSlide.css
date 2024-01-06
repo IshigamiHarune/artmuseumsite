@@ -9,7 +9,7 @@
 }
 
 .loopSlide > div > * {
-    min-width: calc(100% / 2);
+    min-width: calc(100% / var(--slideToShow));
 }
 
 .loopSlide > div:hover{
@@ -22,4 +22,8 @@
 
 @keyframes slide-to-left {
     100% { transform: translateX(-100%) }
+}
+
+@keyframes slide-to-left {
+    100% { transform: translateX(calc(-100% * (var(--slideNum) / var(--slideToShow)))) }
 }
