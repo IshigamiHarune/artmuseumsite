@@ -8,6 +8,7 @@
     padding: 20px;
     height: 4rem;
     position: fixed;
+    z-index: 100;
 }
 
 /* ナビゲーション */
