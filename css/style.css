@@ -12,12 +12,8 @@ p{
 }
 
 section{
-    padding:100px 30px;
+    padding:100px 0;
 }
-
-/* section:first-child {
-    padding: 20px 30px 100px 30px;
-} */
 
 section:first-child h1 {
     font-size: 4rem;
