@@ -53,6 +53,7 @@ CONCEPT
         rgb(189, 189, 189) 20%, 
         rgb(189, 189, 189) 100%
     );
+    width:100%;
 }
 .concept p {
     text-align: left;
