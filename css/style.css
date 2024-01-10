@@ -110,7 +110,7 @@ DESKTOP SIZE
 /*
 MOBILE SIZE
 */
-@media(max-width: 360px){
+@media(max-width: 400px){
     p{
         font-size: small;
     }
