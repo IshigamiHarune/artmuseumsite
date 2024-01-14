@@ -26,11 +26,6 @@ section:first-child h1 {
     margin-bottom: 20px;
 }
 
-/* section:nth-child(n+2) {
-    padding-top:50px;
-    padding-bottom:20px;
-} */
-
 .title {
     font-size: min(10vw, 4rem);
     margin-bottom: 2rem;
@@ -74,6 +69,10 @@ GALLERY
 .gallery h2{
     text-align: center;
 }
+.gallery img:hover{
+	opacity:0.5;
+	cursor: pointer;
+}
 .gallery img:nth-child(1){
     padding-right: 1rem;
 }
@@ -115,10 +114,6 @@ DESKTOP SIZE
     }
     .title {
         margin-bottom: 3rem;
-    }
-    /* GALLERY*/
-    .gallery img{
-        width: 50%;
     }
 }
 
