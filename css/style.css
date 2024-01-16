@@ -63,7 +63,7 @@ GALLERY
 }
 .gallery div{
     display: flex;
-    padding: 0 5rem;
+    padding: 0 0.5rem;
     justify-content:center; 
 }
 .gallery h2{
@@ -115,9 +115,9 @@ DESKTOP SIZE
     .gallery div {
     padding: 0 1rem;
     }
-    .gallery img:nth-child(1) {
+/*     .gallery img:nth-child(1) {
     padding-right: 0;
-    }
+    } */
 }
 
 /*
