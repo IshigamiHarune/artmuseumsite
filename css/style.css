@@ -63,7 +63,7 @@ GALLERY
 }
 .gallery div{
     display: flex;
-    padding: 0 5rem;
+    padding: 0 1rem;
     justify-content:center; 
 }
 .gallery h2{
@@ -72,9 +72,6 @@ GALLERY
 .gallery img:hover{
 	opacity:0.5;
 	cursor: pointer;
-}
-.gallery img:nth-child(1){
-    padding-right: 1rem;
 }
 
 /*
@@ -134,7 +131,7 @@ MOBILE SIZE
     }
     .gallery div {
         display: block;
-        padding: 0 3rem;
+        padding: 0 1rem;
     }
     .gallery img{
         padding: 1rem;
