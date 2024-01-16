@@ -112,6 +112,10 @@ DESKTOP SIZE
     .title {
         margin-bottom: 3rem;
     }
+    /* GARALLY*/
+    .gallery div {
+    padding: 0 1rem;
+    }
 }
 
 /*
