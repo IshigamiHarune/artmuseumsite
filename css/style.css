@@ -1,4 +1,4 @@
-@charset "utf-8";
+ふcharset "utf-8";
 body{
     font-family: serif;
 }
@@ -115,9 +115,9 @@ DESKTOP SIZE
     .gallery div {
     padding: 0 1rem;
     }
-/*     .gallery img:nth-child(1) {
-    padding-right: 0;
-    } */
+    .gallery img:nth-child(1) {
+    padding-right: 0.2rem;
+    } 
 }
 
 /*
