@@ -63,7 +63,7 @@ GALLERY
 }
 .gallery div{
     display: flex;
-    padding: 0 1rem;
+    padding: 0 5rem;
     justify-content:center; 
 }
 .gallery h2{
