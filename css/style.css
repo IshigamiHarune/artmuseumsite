@@ -115,13 +115,16 @@ DESKTOP SIZE
     .gallery div {
     padding: 0 1rem;
     }
+    .gallery img:nth-child(1) {
+    padding-right: 0.5rem;
+    } 
 }
 /*
 横向き
 */
 @media (orientation: portrait){
     .gallery img:nth-child(1) {
-    padding-right: 0.2rem;
+    padding-right: 0.5rem;
     } 
 }
 
