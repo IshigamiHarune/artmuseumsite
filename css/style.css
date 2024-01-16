@@ -140,3 +140,12 @@ MOBILE SIZE
         padding: 1rem;
     }
 }
+
+/*
+横向き
+*/
+@media (orientation: landscape){
+    .concept img {
+    	max-width: 21rem;
+    }
+}
