@@ -2,7 +2,26 @@
 body{
     font-family: serif;
 }
-
+/* ローディング */
+#loading{
+    background-color: #202020E6;
+    position:fixed;
+    inset: 0;
+    z-index: 9999;
+    display: grid;
+    place-items: center;
+}
+#loading-screen{
+    background-color: #f0f0f0;
+    position: fixed;
+    inset: 0;
+    z-index: 9998;
+    translate: 0 100vh;
+}
+#loading p{
+    font-size: 2rem;
+    color: #f0f0f0;
+}
 /* レイアウト */
 .wrapper {
     max-width: 38rem;
