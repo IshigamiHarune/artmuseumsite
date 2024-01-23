@@ -133,6 +133,9 @@ ACCESS
     text-align: center;
     margin-bottom: 3rem;
 }
+.access p:nth-child(n+4):first-line{
+    font-weight:bold;
+}
 
 /*
 Footer
