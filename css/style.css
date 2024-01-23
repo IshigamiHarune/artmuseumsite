@@ -129,9 +129,10 @@ SPECIAL
 /*
 ACCESS
 */
-.access h2{
+.access{
     text-align: center;
-}
+    margin-bottom: 3rem;
+}    
 
 /*
 Footer
