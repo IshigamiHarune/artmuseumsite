@@ -97,6 +97,18 @@ GALLERY
 }
 
 /*
+DAIRY
+*/
+.dairy{
+    margin-bottom: 3rem;
+}
+
+.dairy img {
+    display: flex;
+    margin: 2rem auto;
+}
+
+/*
 ACCESS
 */
 .access h2{
