@@ -165,6 +165,6 @@ MOBILE SIZE
 */
 @media (orientation: landscape){
     .concept img {
-    	max-width: 21rem;
+/*     	max-width: 21rem; */
     }
 }
