@@ -132,7 +132,11 @@ ACCESS
 .access{
     text-align: center;
     margin-bottom: 3rem;
-}    
+}
+.access p:last-child {
+    text-align: left;
+    margin: 0 33em;
+}
 
 /*
 Footer
