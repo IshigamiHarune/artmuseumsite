@@ -109,6 +109,24 @@ DAIRY
 }
 
 /*
+SPECIAL
+*/
+.special{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.special h2{
+    font-size: 4rem;
+}
+.special h3{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.special p{
+    margin-top: 0;
+}
+
+/*
 ACCESS
 */
 .access h2{
